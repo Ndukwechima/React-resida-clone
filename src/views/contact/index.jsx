@@ -1,4 +1,4 @@
-import "./contactStyle.css";
+// import "./contactStyle.css";
 
 const ContactPage = () => {
   return <div>ContactPage</div>;
