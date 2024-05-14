@@ -20,19 +20,8 @@ const HeroSection = () => {
         </span>
 
         <div className="btn_container">
-          <Button
-            // style={{
-            //   width: "32%",
-            // }}
-            btnName={"Download our app"}
-          />
-          <Button
-            // style={{
-            //   width: "32%",
-            // }}
-            btnName={"Learn More"}
-            outline
-          />
+          <Button btnName={"Download our app"} />
+          <Button btnName={"Learn More"} outline />
         </div>
       </div>
     </section>

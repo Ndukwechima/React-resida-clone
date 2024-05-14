@@ -10,11 +10,12 @@
 
 .hero_section_content {
   width: 45%;
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: max-content;
 }
 .hero_section_content p {
-  font-size: 45px;
+  width: 90%;
+  font-size: 49px;
   color: #1f4b43;
   font-weight: bold;
   text-align: center;
@@ -25,6 +26,8 @@
   color: #35384b;
   text-align: center;
   padding: 0 3rem;
+  width: 82%;
+  display: block;
 }
 
 .btn_container {
@@ -40,7 +43,7 @@
   width: 32%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 841px) {
   .hero_section_container {
     height: 91vh;
     width: 100%;
