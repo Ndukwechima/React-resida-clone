@@ -4,6 +4,7 @@ import SubHeroSection from "components/subHeroSection";
 import HeroSection from "components/heroSection";
 import OurExperience from "components/ourExperience";
 import Header from "shared/header";
+import FindYourSpace from "components/findYourSpace";
 const LandingPage = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <HeroSection />
       <SubHeroSection />
       <OurExperience />
+      <FindYourSpace />
     </div>
   );
 };

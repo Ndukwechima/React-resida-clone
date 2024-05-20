@@ -1,0 +1,87 @@
+.fys_container {
+  padding: 8rem 10rem;
+  background-image: url("assets/find_space_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 30vh;
+}
+
+.fys_image_section,
+.fys_text_section {
+  flex-basis: 50%;
+  margin: 0 1rem;
+}
+
+.fys_image_section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fys_text_section {
+  text-align: left;
+}
+
+.fys_text_section div p {
+  color: #fff;
+  font-size: 33px;
+  font-weight: bolder;
+  padding-right: 10rem;
+  margin: 0, 0 1rem, 0;
+}
+.fys_text_section div span {
+  color: #fff;
+  font-size: 33px;
+  font-weight: normal;
+}
+
+.fys_button {
+  width: 33%;
+  margin-top: 2rem;
+}
+
+@media (max-width: 841px) {
+  .fys_container {
+    padding: 2rem;
+    height: max-content;
+    border: solid 1px red;
+    flex-direction: column;
+  }
+
+  .fys_text_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fys_image_section,
+  .fys_text_section {
+    flex-basis: 100%;
+  }
+
+  .fys_text_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fys_text_section div p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 0rem;
+    margin: 0, 0 1rem, 0;
+  }
+
+  .fys_text_section div span {
+    font-size: 28px;
+  }
+
+  .fys_button {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
