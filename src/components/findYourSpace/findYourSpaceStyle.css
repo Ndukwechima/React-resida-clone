@@ -1,10 +1,9 @@
 .fys_container {
-  padding: 8rem 10rem;
+  padding: 2rem 10rem;
   background-image: url("assets/find_space_bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 30vh;
 }
 
 .fys_image_section,
@@ -14,8 +13,7 @@
 }
 
 .fys_image_section img {
-  height: 100%;
-  width: 100%;
+  width: 84%;
   object-fit: cover;
 }
 
@@ -45,7 +43,6 @@
   .fys_container {
     padding: 2rem;
     height: max-content;
-    border: solid 1px red;
     flex-direction: column;
   }
 
@@ -83,5 +80,13 @@
   .fys_button {
     width: 100%;
     margin-top: 2rem;
+  }
+
+  .fys_image_section img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .fys_image_section {
+    width: 98vw;
   }
 }

@@ -1,0 +1,40 @@
+.parent_container {
+  width: 100%;
+  padding: 3rem 0;
+  background-color: rgba(187, 219, 243, 0.2);
+}
+.feature_property_div {
+  width: 70%;
+  margin: 0 auto;
+}
+.feature_property_div h2 {
+  color: #1f4b43;
+}
+.feature_property_div p {
+  color: #141115;
+  padding: 1rem 0;
+}
+.featured_card_div {
+  width: 80%;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+@media (max-width: 841px) {
+  .featured_card_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature_property_div {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .feature_property_div p {
+    color: #141115;
+    padding: 1rem 0;
+    text-align: start;
+  }
+}

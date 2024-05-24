@@ -42,11 +42,12 @@
 }
 
 .text {
-  font-size: 28px;
+  font-size: 25px;
   text-align: left;
   color: #1f4b43;
-  font-weight: bold;
+  font-weight: 500;
   padding-left: 2rem;
+  padding: 0 3rem;
 }
 
 /* =========boxes======== */
@@ -101,6 +102,7 @@
     font-weight: bold;
     text-align: center;
     padding-left: 0rem;
+    padding: 16px 0;
   }
 
   .box1,
