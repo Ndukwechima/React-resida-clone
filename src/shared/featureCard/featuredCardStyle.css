@@ -1,12 +1,12 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .image_div img {
   width: 100%;
-  object-fit: cover;
   height: 40vh;
+  object-fit: cover;
   border-radius: 6px;
 }
 figure {
@@ -30,8 +30,8 @@ figcaption {
 }
 
 .title_div p {
-  font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
 }
 
 article {
@@ -43,8 +43,8 @@ article {
 
 .button_div {
   display: flex;
-  flex-wrap: nowrap;
   padding: 10px 0;
+  flex-wrap: nowrap;
 }
 
 button {

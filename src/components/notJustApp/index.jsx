@@ -17,9 +17,10 @@ const NotJustApp = () => {
           <div className="info_div">
             <p className="info_text">
               Resida aims to bridge the gap between potential tenants and
-              available properties. This app is not just a tool; it's a solution
-              for individuals and families who are navigating the challenging
-              terrain of apartment hunting in a new or familiar city.{" "}
+              available properties. This app is not just a tool; it&#39s a
+              solution for individuals and families who are navigating the
+              challenging terrain of apartment hunting in a new or familiar
+              city.
             </p>
           </div>
         </div>

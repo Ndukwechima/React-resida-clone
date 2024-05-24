@@ -11,17 +11,17 @@
   color: #1f4b43;
 }
 .feature_property_div p {
-  color: #141115;
   padding: 1rem 0;
+  color: #141115;
 }
 .featured_card_div {
+  gap: 1rem;
   width: 80%;
-  max-width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  max-width: 80%;
   margin: 0 auto;
   padding: 2rem 0;
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 841px) {
