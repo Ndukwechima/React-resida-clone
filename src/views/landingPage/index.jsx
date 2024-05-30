@@ -9,6 +9,7 @@ import NotJustApp from "components/notJustApp";
 import FeaturedProperties from "components/featuredProperties";
 import not_just_app from "assets/not_just_app.png";
 import guidemap from "assets/guildmap.svg";
+import house from "assets/house.svg";
 
 const LandingPage = () => {
   return (
@@ -46,6 +47,24 @@ const LandingPage = () => {
         infoStyle="head_title"
       />
       <FeaturedProperties />
+
+      <NotJustApp
+        title="Do you have a property?"
+        subtitle=" Provide accommodation here in Lagos"
+        body={` Own a property in Lagos? Join our platform to 
+                effortlessly list your accommodations and connect
+                 with eager tenants seeking their perfect home
+                  in the vibrant city of Lagos.`}
+        image={house}
+        imageStyle={"info_image_comprehensive"}
+        button={true}
+        imageHeight="info_comprehensive_imgheight"
+        infoStyle="head_title"
+        circle={true}
+        circleStyletitle={true}
+        circleStyleSubtitle={true}
+        reversed
+      />
     </main>
   );
 };
