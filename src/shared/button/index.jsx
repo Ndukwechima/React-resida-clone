@@ -6,6 +6,7 @@ const Button = ({ style, btnName, outline, rightIcon, leftIcon }) => {
       {leftIcon && <span className="left_icon">{leftIcon}</span>}
 
       {btnName}
+
       {rightIcon && <span className="right_icon">{rightIcon}</span>}
     </button>
   );

@@ -20,6 +20,7 @@ const NotJustApp = ({
   circleStyletitle,
   circleStyleSubtitle,
   reversed,
+  btn,
 }) => {
   return (
     <div className="info_container">
@@ -30,9 +31,6 @@ const NotJustApp = ({
             <div className={`info_description ${infoStyle}`}>
               {circle && (
                 <div className="info_circle">
-                  {/* <div className="info_circle_img">
-                <img src={circle1} alt="infoCircle" className="circle_img" />
-              </div> */}
                   <CircleImage image={circle1} />
                   <CircleImage
                     image={circle2}
@@ -78,6 +76,7 @@ const NotJustApp = ({
               <div className="info_button">
                 {button ? (
                   <Button
+                    className="style_btn"
                     style={{
                       backgroundColor: "#dba94d",
                       color: "#1f4b43",
@@ -137,9 +136,6 @@ const NotJustApp = ({
             <div className={`info_description ${infoStyle}`}>
               {circle && (
                 <div className="info_circle">
-                  {/* <div className="info_circle_img">
-                <img src={circle1} alt="infoCircle" className="circle_img" />
-              </div> */}
                   <CircleImage image={circle1} />
                   <CircleImage
                     image={circle2}

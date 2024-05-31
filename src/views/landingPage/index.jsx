@@ -10,6 +10,11 @@ import FeaturedProperties from "components/featuredProperties";
 import not_just_app from "assets/not_just_app.png";
 import guidemap from "assets/guildmap.svg";
 import house from "assets/house.svg";
+import needOffice from "assets/needOffice.svg";
+// import phone1 from "assets/phone1.png";
+import Discover from "components/discover";
+import FindHome from "components/findHome";
+import Footer from "shared/footer";
 
 const LandingPage = () => {
   return (
@@ -47,7 +52,7 @@ const LandingPage = () => {
         infoStyle="head_title"
       />
       <FeaturedProperties />
-
+      {/* =================Neiborghood========== */}
       <NotJustApp
         title="Do you have a property?"
         subtitle=" Provide accommodation here in Lagos"
@@ -65,6 +70,25 @@ const LandingPage = () => {
         circleStyleSubtitle={true}
         reversed
       />
+
+      <Discover />
+
+      <NotJustApp
+        title="Need an office space?"
+        body={`Seeking office space in Lagos? Look no further!
+         Our accommodations offer tailored solutions to meet 
+         your workspace needs, ensuring productivity and comfort
+          in the heart of Lagos.`}
+        image={needOffice}
+        imageStyle={"info_image"}
+        imageHeight={"image"}
+        button={false}
+        styledBtn="styled_btn"
+      />
+
+      <FindHome />
+
+      <Footer />
     </main>
   );
 };
