@@ -11,10 +11,10 @@ import not_just_app from "assets/not_just_app.png";
 import guidemap from "assets/guildmap.svg";
 import house from "assets/house.svg";
 import needOffice from "assets/needOffice.svg";
-// import phone1 from "assets/phone1.png";
 import Discover from "components/discover";
 import FindHome from "components/findHome";
 import Footer from "shared/footer";
+import AppStores from "components/appStores";
 
 const LandingPage = () => {
   return (
@@ -87,7 +87,7 @@ const LandingPage = () => {
       />
 
       <FindHome />
-
+      <AppStores />
       <Footer />
     </main>
   );
