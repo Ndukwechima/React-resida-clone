@@ -6,7 +6,6 @@
 
 .wrapper {
   width: 100%;
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +15,7 @@
 
 .containers {
   width: 80%;
-  height: 80vh;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,7 +94,7 @@ small {
   }
 
   .image_div img {
-    width: 60%;
+    width: 100%;
     object-fit: cover;
   }
   .app_store_div {
@@ -104,8 +103,6 @@ small {
   .left_section > div > h1 {
     width: 100%;
     font-size: 2rem;
-    color: #1f4b43;
     text-align: center;
-    padding: 4px 0;
   }
 }
