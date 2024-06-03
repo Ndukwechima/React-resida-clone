@@ -80,10 +80,10 @@ const LandingPage = () => {
          your workspace needs, ensuring productivity and comfort
           in the heart of Lagos.`}
         image={needOffice}
-        imageStyle={"info_image"}
         imageHeight={"image"}
         button={false}
         styledBtn="styled_btn"
+        imgadjust="imgadjust"
       />
 
       <FindHome />

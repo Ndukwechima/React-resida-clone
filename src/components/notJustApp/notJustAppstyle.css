@@ -108,10 +108,15 @@
   border-radius: 25px;
 }
 
+.imgadjust {
+  width: 90%;
+  height: 90%;
+}
+
 @media (max-width: 841px) {
   .info_inner_container {
     padding: 16px 0;
-    grid-template-columns: repeat(1, 1fr); /* Switch to a single column */
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .info_title {
@@ -138,5 +143,11 @@
   .image {
     width: 110%;
     margin-top: 1rem;
+  }
+
+  .imgadjust {
+    width: 100%;
+    height: 100%;
+    margin-left: -2rem;
   }
 }

@@ -20,11 +20,11 @@ const NotJustApp = ({
   circleStyletitle,
   circleStyleSubtitle,
   reversed,
-  btn,
+  imgadjust,
 }) => {
   return (
     <div className="info_container">
-      <div className="info_inner_container">
+      <div className={`info_inner_container`}>
         {reversed ? (
           <>
             {" "}
@@ -130,7 +130,8 @@ const NotJustApp = ({
               <img
                 src={image}
                 alt="not_just_app_image"
-                className={imageHeight}
+                // className={imageHeight}
+                className={`${imageHeight} ${imgadjust}`}
               />
             </div>
             <div className={`info_description ${infoStyle}`}>

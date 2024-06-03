@@ -14,7 +14,7 @@
 }
 
 .box_img_div img {
-  width: 20vw;
+  width: 23vw;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -45,4 +45,7 @@
 }
 
 @media (max-width: 841px) {
+  .box_img_div img {
+    width: 26vw;
+  }
 }
