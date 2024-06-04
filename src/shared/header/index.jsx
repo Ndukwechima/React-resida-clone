@@ -14,7 +14,7 @@ const Header = () => {
       {/* Logo */}
 
       <div>
-        <div className="desktop_logo">
+        <Link to="/" className="desktop_logo">
           <svg
             width="123"
             height="25"
@@ -48,7 +48,7 @@ const Header = () => {
               />
             </defs>
           </svg>
-        </div>
+        </Link>
         <div className="mobile_logo">
           <svg
             width="22"
