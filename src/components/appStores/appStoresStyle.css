@@ -44,7 +44,6 @@
 }
 
 .image_div img {
-  width: 80%;
   height: 80%;
   object-fit: cover;
 }
@@ -67,10 +66,12 @@
   font-size: 10px;
   letter-spacing: 1px;
 }
+
 .app_store {
   color: #fff;
   font-size: 14px;
 }
+
 small {
   color: #a4a4a4;
 }
@@ -97,9 +98,11 @@ small {
     width: 100%;
     object-fit: cover;
   }
+
   .app_store_div {
     width: 50%;
   }
+
   .left_section > div > h1 {
     width: 100%;
     font-size: 2rem;

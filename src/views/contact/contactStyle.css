@@ -58,7 +58,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: solid red; */
   align-items: center;
   white-space: nowrap;
   margin-top: 1rem;
@@ -69,7 +68,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: solid red; */
   align-items: center;
   white-space: nowrap;
   margin-top: 1rem;
@@ -79,7 +77,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: solid red; */
   align-items: center;
   white-space: nowrap;
   margin-top: 1rem;
@@ -97,7 +94,6 @@
 
 .center_div {
   margin-top: 2rem;
-  /* border: solid blue; */
 }
 
 .social_form_div {
@@ -279,6 +275,5 @@ textarea {
   }
   .area_div {
     margin-left: -1rem;
-    /* border: solid red; */
   }
 }
