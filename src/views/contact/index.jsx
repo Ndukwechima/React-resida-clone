@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail, MdOutlineWifiCalling3 } from "react-icons/md";
 import { FaTwitter, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import Button from "shared/button";
+import Footer from "shared/footer";
 
 const ContactPage = () => {
   return (
@@ -178,6 +179,7 @@ const ContactPage = () => {
           </section>
         </section>
       </section>
+      <Footer />
     </section>
   );
 };
